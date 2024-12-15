@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body class="bg-dark text-white">
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  p-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Weather</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="mx-3 nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="mx-3 nav-item">
+                        <a class="nav-link text-white" href="#">News</a>
+                    </li>
+                    <li class="mx-3 nav-item">
+                        <a class="nav-link text-white" href="#">Live Cameras</a>
+                    </li>
+                    <li class="mx-3 nav-item">
+                        <a class="nav-link text-white" href="#">Photo</a>
+                    </li>
+                    <li class="mx-3 nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<header  class="vh-100 p-5 d-flex p-5 justify-content-center flex-column">
+    <div class="search w-100 position-relative mb-5" >
+        <input id="search" type="text" class="form-control w-100 bg-dark text-white border-dark p-3 rounded-pill" placeholder="Find Your Location...">
+        <button class="btn btn-light rounded-pill position-absolute top-0 end-0 mt-2 me-2 p-2 ">Search</button>
+    </div>
+    <div class="container mt-3">
+        <div class="row g-0" id="weather">
+
+        </div>
+    </div>
+</header>
+
+<footer class="text-center mt-5 p-5">
+    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</footer>
+
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
